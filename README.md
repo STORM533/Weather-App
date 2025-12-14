@@ -7,13 +7,13 @@ Users can enter a location, fetch weather data from an external API, and view th
 
 ## 🚀 Features
 
-- Fetch real-time weather data based on user input  
+- Fetch real-time weather data based on user input
 - Separate modules for:
-  - API fetching  
-  - Data processing  
-  - DOM updates  
-- Optional loading indicator  
-- Optional dynamic icon loading using `import()`  
-- Fully customizable styling  
+  - API fetching
+  - Data processing
+  - DOM updates
+- Optional loading indicator
+- Optional dynamic icon loading using `import()`
+- Fully customizable styling
 
 ---

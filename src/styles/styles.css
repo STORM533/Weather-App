@@ -1,96 +1,99 @@
 /* Reset the chaos */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Segoe UI", system-ui, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", system-ui, sans-serif;
 }
 
 body {
-    min-height: 100vh;
-    background: linear-gradient(135deg, #1e3c72, #2a5298);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
 }
 
 /* Card container */
-form, #disp {
-    width: 100%;
-    max-width: 380px;
-    background: rgba(255, 255, 255, 0.12);
-    backdrop-filter: blur(10px);
-    border-radius: 16px;
-    padding: 24px;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+form,
+#disp {
+  width: 100%;
+  max-width: 380px;
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
 }
 
 /* Space between form and output */
 form {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 /* Label + input */
 label {
-    font-size: 0.9rem;
-    letter-spacing: 1px;
-    color: #cfe3ff;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  color: #cfe3ff;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 input {
-    padding: 12px 14px;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    font-size: 1rem;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
 }
 
 /* Button */
 button {
-    margin-top: 16px;
-    width: 100%;
-    padding: 12px;
-    border-radius: 12px;
-    border: none;
-    font-size: 1rem;
-    font-weight: 600;
-    cursor: pointer;
-    background: #ffd166;
-    color: #1e3c72;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  margin-top: 16px;
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  background: #ffd166;
+  color: #1e3c72;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
 button:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
 /* Weather display */
 #disp {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
 }
 
 /* Individual weather lines */
 #disp div {
-    font-size: 1.05rem;
-    padding: 6px 0;
+  font-size: 1.05rem;
+  padding: 6px 0;
 }
 
 /* Emphasis */
 #Address {
-    font-size: 1.2rem;
-    font-weight: 600;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
 #todayTemp {
-    font-size: 2.5rem;
-    font-weight: 700;
+  font-size: 2.5rem;
+  font-weight: 700;
 }
